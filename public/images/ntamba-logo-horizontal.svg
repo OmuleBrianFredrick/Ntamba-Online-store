@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="sunGlowH" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+    <linearGradient id="leafGradLeftH" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E5429" />
+      <stop offset="50%" stop-color="#16803C" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+    <linearGradient id="leafGradRightH" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#09381B" />
+      <stop offset="60%" stop-color="#15803D" />
+      <stop offset="100%" stop-color="#4ADE80" />
+    </linearGradient>
+    <linearGradient id="goldGrainH" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <style>
+      .ntamba-main { font-family: 'Outfit', 'Montserrat', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-weight: 900; }
+      .ntamba-sub { font-family: 'Outfit', 'Montserrat', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-weight: 800; }
+      .ntamba-tag { font-family: 'Outfit', 'Montserrat', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; font-weight: 800; }
+    </style>
+  </defs>
+
+  <!-- LEFT EMBLEM (Scale 280x280 centered at x=160, y=160) -->
+  <g transform="translate(20, 20) scale(0.56)">
+    <!-- 1. Outer Cog Wheel / Industrial Gear in Forest Green -->
+    <g id="cog-wheel-h" fill="#0C4A2B">
+      <path d="
+        M 220 30 L 280 30 L 274 72 A 190 190 0 0 1 340 99 L 378 80 L 408 132 L 377 161 A 190 190 0 0 1 404 227 L 446 220 L 446 280 L 404 273 A 190 190 0 0 1 377 339 L 408 368 L 378 420 L 340 401 A 190 190 0 0 1 274 428 L 280 470 L 220 470 L 226 428 A 190 190 0 0 1 160 401 L 122 420 L 92 368 L 123 339 A 190 190 0 0 1 96 273 L 54 280 L 54 220 L 96 227 A 190 190 0 0 1 123 161 L 92 132 L 122 80 L 160 99 A 190 190 0 0 1 226 72 Z
+      " />
+      <circle cx="250" cy="250" r="162" fill="#FFFFFF" />
+      <circle cx="250" cy="250" r="150" fill="none" stroke="#D97706" stroke-width="7" />
+    </g>
+
+    <!-- 2. Inner Golden Horizon / Rising Sun -->
+    <g id="rising-sun-h">
+      <circle cx="250" cy="180" r="42" fill="url(#sunGlowH)" />
+      <polygon points="250,118 244,136 256,136" fill="#D97706" />
+      <polygon points="210,132 212,148 223,142" fill="#D97706" />
+      <polygon points="180,162 195,170 199,158" fill="#D97706" />
+      <polygon points="172,202 189,200 188,188" fill="#D97706" />
+      <polygon points="290,132 277,142 288,148" fill="#D97706" />
+      <polygon points="320,162 301,158 305,170" fill="#D97706" />
+      <polygon points="328,202 312,188 311,200" fill="#D97706" />
+    </g>
+
+    <!-- 3. Agricultural Field Furrows -->
+    <g id="furrows-h">
+      <path d="M 145 315 C 160 300 205 310 230 335 C 190 355 155 345 145 315 Z" fill="#D97706" />
+      <path d="M 155 330 C 175 320 215 330 235 355 C 205 372 175 365 155 330 Z" fill="#F59E0B" />
+      <path d="M 170 355 C 190 345 225 355 240 375 C 215 385 190 380 170 355 Z" fill="#B45309" />
+    </g>
+
+    <!-- 4. Left Crop Cluster: Golden Corn / Coffee Beans -->
+    <g id="corn-coffee-cluster-h" fill="url(#goldGrainH)">
+      <path d="M 148 245 C 145 210 185 200 195 240 C 200 270 180 300 160 300 C 145 300 150 270 148 245 Z" />
+      <ellipse cx="162" cy="225" rx="5" ry="7" fill="#FFFFFF" opacity="0.6" />
+      <ellipse cx="178" cy="225" rx="5" ry="7" fill="#FFFFFF" opacity="0.6" />
+      <ellipse cx="156" cy="242" rx="6" ry="8" fill="#FFFFFF" opacity="0.5" />
+      <ellipse cx="172" cy="242" rx="6" ry="8" fill="#FFFFFF" opacity="0.5" />
+      <ellipse cx="188" cy="245" rx="5" ry="7" fill="#FFFFFF" opacity="0.5" />
+      <ellipse cx="160" cy="262" rx="6" ry="8" fill="#FFFFFF" opacity="0.5" />
+      <ellipse cx="176" cy="262" rx="6" ry="8" fill="#FFFFFF" opacity="0.5" />
+      <ellipse cx="166" cy="280" rx="5" ry="7" fill="#FFFFFF" opacity="0.4" />
+    </g>
+
+    <!-- 5. Right Crop Cluster: Golden Wheat / Grain Ear -->
+    <g id="wheat-sheaf-h" fill="url(#goldGrainH)">
+      <path d="M 270 305 Q 295 260 335 220 C 330 240 315 270 295 295 Z" />
+      <path d="M 282 280 C 275 270 282 258 296 260 C 298 272 290 282 282 280 Z" fill="#FBBF24" />
+      <path d="M 302 265 C 295 255 302 243 316 245 C 318 257 310 267 302 265 Z" fill="#F59E0B" />
+      <path d="M 292 250 C 285 240 292 228 306 230 C 308 242 300 252 292 250 Z" fill="#FBBF24" />
+      <path d="M 314 235 C 307 225 314 213 328 215 C 330 227 322 237 314 235 Z" fill="#F59E0B" />
+      <path d="M 306 220 C 299 210 306 198 320 200 C 322 212 314 222 306 220 Z" fill="#FBBF24" />
+      <path d="M 324 205 C 320 195 328 185 338 190 C 338 200 332 208 324 205 Z" fill="#F59E0B" />
+    </g>
+
+    <!-- 6. Central Vibrant Green Foliage -->
+    <path d="M 245 375 C 230 330 195 275 140 245 C 160 295 210 350 245 375 Z" fill="url(#leafGradLeftH)" />
+    <path d="M 240 370 C 215 320 180 270 145 248 C 175 270 215 320 240 370 Z" fill="#22C55E" opacity="0.6" />
+    <path d="M 252 385 C 250 310 242 220 230 170 C 265 215 268 310 252 385 Z" fill="url(#leafGradRightH)" />
+    <path d="M 252 380 C 248 300 248 230 236 185 C 255 220 258 290 252 380 Z" fill="#4ADE80" opacity="0.5" />
+    <path d="M 255 375 C 270 320 310 245 365 205 C 350 270 300 345 255 375 Z" fill="url(#leafGradRightH)" />
+    <path d="M 258 370 C 285 315 325 250 360 212 C 335 255 295 320 258 370 Z" fill="#22C55E" opacity="0.6" />
+    <path d="M 345 205 C 375 210 395 240 390 270 C 375 265 365 245 350 225 Z" fill="#15803D" />
+  </g>
+
+  <!-- RIGHT TYPOGRAPHY -->
+  <g transform="translate(325, 0)">
+    <!-- "Ntamba" Primary Wordmark in Deep Agroecology Green -->
+    <text x="0" y="145" class="ntamba-main" font-size="142" fill="#0C4A2B" letter-spacing="-1.5">Ntamba</text>
+
+    <!-- "PROCESSORS" in Bold Tracked Gold/Ochre -->
+    <text x="5" y="202" class="ntamba-sub" font-size="52" fill="#C27B13" letter-spacing="9.5">PROCESSORS</text>
+
+    <!-- Golden Separation Rule -->
+    <rect x="5" y="218" width="560" height="6.5" rx="3.25" fill="#C27B13" />
+
+    <!-- "AGRICULTURAL VALUE ADDITION" in Clean Forest Green -->
+    <text x="5" y="258" class="ntamba-tag" font-size="28.5" fill="#0C4A2B" letter-spacing="3.2">AGRICULTURAL VALUE ADDITION</text>
+  </g>
+</svg>
